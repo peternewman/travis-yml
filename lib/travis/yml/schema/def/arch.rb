@@ -41,7 +41,7 @@ module Travis
             value :amd64, alias: %i(x86_64 x64)
             value :arm64
             value :ppc64le, alias: %i(power ppc ppc64)
-            value :i386
+            value :i386, alias: %i(x86)
 
             export
           end
