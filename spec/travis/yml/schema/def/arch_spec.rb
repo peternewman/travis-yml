@@ -40,12 +40,14 @@ describe Travis::Yml::Schema::Def::Archs do
           'amd64',
           'arm64',
           'ppc64le',
+          'i386',
         ],
         downcase: true,
         values: {
           amd64: {
             aliases: [
-              'x86_64'
+              'x86_64',
+              'x64',
             ]
           },
           ppc64le: {
